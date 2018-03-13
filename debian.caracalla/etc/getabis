@@ -1,0 +1,11 @@
+repo_list=(
+	"http://archive.ubuntu.com/ubuntu/pool/main/l/linux-caracalla"
+	"http://ports.ubuntu.com/ubuntu-ports/pool/main/l/linux-caracalla"
+	"http://archive.ubuntu.com/ubuntu/pool/universe/l/linux-caracalla"
+	"http://ports.ubuntu.com/ubuntu-ports/pool/universe/l/linux-caracalla"
+	"http://ppa.launchpad.net/canonical-kernel-team/ppa/ubuntu/pool/main/l/linux-caracalla"
+)
+
+package_prefixes linux-image linux-image-extra
+
+getall amd64 caracalla
